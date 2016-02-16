@@ -1,0 +1,12 @@
+# Idris Code Generator for Nix
+
+Requires Nix 1.10 or above.
+
+## Get Started
+
+[source,shell]
+----
+$ nix-shell
+$ cabal configure --enable-tests --enable-bench
+$ cabal build
+----
